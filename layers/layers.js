@@ -72,60 +72,84 @@ var lyr_Whisper200EAkWhm_3 = new ol.layer.Vector({
     <img src="styles/legend/Whisper200EAkWhm_3_3.png" /> 504 - 672<br />\
     <img src="styles/legend/Whisper200EAkWhm_3_4.png" /> 672 - 840<br />'
         });
-var format_RIGjkWhm_4 = new ol.format.GeoJSON();
-var features_RIGjkWhm_4 = format_RIGjkWhm_4.readFeatures(json_RIGjkWhm_4, 
+var format_RIGakWhm_4 = new ol.format.GeoJSON();
+var features_RIGakWhm_4 = format_RIGakWhm_4.readFeatures(json_RIGakWhm_4, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_RIGjkWhm_4 = new ol.source.Vector({
+var jsonSource_RIGakWhm_4 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_RIGjkWhm_4.addFeatures(features_RIGjkWhm_4);
-var lyr_RIGjkWhm_4 = new ol.layer.Vector({
+jsonSource_RIGakWhm_4.addFeatures(features_RIGakWhm_4);
+var lyr_RIGakWhm_4 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_RIGjkWhm_4, 
-                style: style_RIGjkWhm_4,
+                source:jsonSource_RIGakWhm_4, 
+                style: style_RIGakWhm_4,
+                popuplayertitle: "RIGa(kWh/m²)",
+                interactive: true,
+    title: 'RIGa(kWh/m²)<br />\
+    <img src="styles/legend/RIGakWhm_4_0.png" /> 240 - 1715<br />\
+    <img src="styles/legend/RIGakWhm_4_1.png" /> 1715 - 1828<br />\
+    <img src="styles/legend/RIGakWhm_4_2.png" /> 1828 - 1942<br />\
+    <img src="styles/legend/RIGakWhm_4_3.png" /> 1942 - 2055<br />\
+    <img src="styles/legend/RIGakWhm_4_4.png" /> 2055 - 2169<br />\
+    <img src="styles/legend/RIGakWhm_4_5.png" /> 2169 - 2282<br />'
+        });
+var format_RIGjkWhm_5 = new ol.format.GeoJSON();
+var features_RIGjkWhm_5 = format_RIGjkWhm_5.readFeatures(json_RIGjkWhm_5, 
+            {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
+var jsonSource_RIGjkWhm_5 = new ol.source.Vector({
+    attributions: ' ',
+});
+jsonSource_RIGjkWhm_5.addFeatures(features_RIGjkWhm_5);
+var lyr_RIGjkWhm_5 = new ol.layer.Vector({
+                declutter: false,
+                source:jsonSource_RIGjkWhm_5, 
+                style: style_RIGjkWhm_5,
                 popuplayertitle: "RIGj(kWh/m²)",
                 interactive: false,
     title: 'RIGj(kWh/m²)<br />\
-    <img src="styles/legend/RIGjkWhm_4_0.png" /> 0,66 - 2,11<br />\
-    <img src="styles/legend/RIGjkWhm_4_1.png" /> 2,11 - 2,94<br />\
-    <img src="styles/legend/RIGjkWhm_4_2.png" /> 2,94 - 3,77<br />\
-    <img src="styles/legend/RIGjkWhm_4_3.png" /> 3,77 - 4,59<br />\
-    <img src="styles/legend/RIGjkWhm_4_4.png" /> 4,59 - 5,42<br />\
-    <img src="styles/legend/RIGjkWhm_4_5.png" /> 5,42 - 6,25<br />'
+    <img src="styles/legend/RIGjkWhm_5_0.png" /> 0,66 - 2,11<br />\
+    <img src="styles/legend/RIGjkWhm_5_1.png" /> 2,11 - 2,94<br />\
+    <img src="styles/legend/RIGjkWhm_5_2.png" /> 2,94 - 3,77<br />\
+    <img src="styles/legend/RIGjkWhm_5_3.png" /> 3,77 - 4,59<br />\
+    <img src="styles/legend/RIGjkWhm_5_4.png" /> 4,59 - 5,42<br />\
+    <img src="styles/legend/RIGjkWhm_5_5.png" /> 5,42 - 6,25<br />'
         });
-var format_Algrie_5 = new ol.format.GeoJSON();
-var features_Algrie_5 = format_Algrie_5.readFeatures(json_Algrie_5, 
+var format_Algrie_6 = new ol.format.GeoJSON();
+var features_Algrie_6 = format_Algrie_6.readFeatures(json_Algrie_6, 
             {dataProjection: 'EPSG:4326', featureProjection: 'EPSG:3857'});
-var jsonSource_Algrie_5 = new ol.source.Vector({
+var jsonSource_Algrie_6 = new ol.source.Vector({
     attributions: ' ',
 });
-jsonSource_Algrie_5.addFeatures(features_Algrie_5);
-var lyr_Algrie_5 = new ol.layer.Vector({
+jsonSource_Algrie_6.addFeatures(features_Algrie_6);
+var lyr_Algrie_6 = new ol.layer.Vector({
                 declutter: false,
-                source:jsonSource_Algrie_5, 
-                style: style_Algrie_5,
+                source:jsonSource_Algrie_6, 
+                style: style_Algrie_6,
                 popuplayertitle: "Algérie",
                 interactive: false,
-                    title: '<img src="styles/legend/Algrie_5.png" /> Algérie'
+                    title: '<img src="styles/legend/Algrie_6.png" /> Algérie'
                 });
 
-lyr_GoogleMaps_0.setVisible(true);lyr_Vitesseduventms_1.setVisible(true);lyr_Whisper200EJkWhm_2.setVisible(true);lyr_Whisper200EAkWhm_3.setVisible(true);lyr_RIGjkWhm_4.setVisible(true);lyr_Algrie_5.setVisible(true);
-var layersList = [lyr_GoogleMaps_0,lyr_Vitesseduventms_1,lyr_Whisper200EJkWhm_2,lyr_Whisper200EAkWhm_3,lyr_RIGjkWhm_4,lyr_Algrie_5];
+lyr_GoogleMaps_0.setVisible(true);lyr_Vitesseduventms_1.setVisible(true);lyr_Whisper200EJkWhm_2.setVisible(true);lyr_Whisper200EAkWhm_3.setVisible(true);lyr_RIGakWhm_4.setVisible(true);lyr_RIGjkWhm_5.setVisible(true);lyr_Algrie_6.setVisible(true);
+var layersList = [lyr_GoogleMaps_0,lyr_Vitesseduventms_1,lyr_Whisper200EJkWhm_2,lyr_Whisper200EAkWhm_3,lyr_RIGakWhm_4,lyr_RIGjkWhm_5,lyr_Algrie_6];
 lyr_Vitesseduventms_1.set('fieldAliases', {'fid': 'fid', 'index': 'index', 'v': 'v', 'label': 'label', });
 lyr_Whisper200EJkWhm_2.set('fieldAliases', {'fid': 'fid', 'index': 'index', 'Ej_min': 'Ej_min', 'Ej_max': 'Ej_max', 'label': 'label', });
 lyr_Whisper200EAkWhm_3.set('fieldAliases', {'fid': 'fid', 'index': 'index', 'E_min': 'E_min', 'E_max': 'E_max', 'label': 'label', });
-lyr_RIGjkWhm_4.set('fieldAliases', {'fid': 'fid', 'index': 'index', 'Ej_min': 'Ej_min', 'Ej_max': 'Ej_max', 'label': 'label', });
-lyr_Algrie_5.set('fieldAliases', {'name': 'name', 'name_ar': 'name_ar', 'name_ber': 'name_ber', 'density': 'density', 'city_code': 'city_code', });
+lyr_RIGakWhm_4.set('fieldAliases', {'fid': 'fid', 'index': 'index', 'E_min': 'E_min', 'E_max': 'E_max', 'label': 'label', });
+lyr_RIGjkWhm_5.set('fieldAliases', {'fid': 'fid', 'index': 'index', 'Ej_min': 'Ej_min', 'Ej_max': 'Ej_max', 'label': 'label', });
+lyr_Algrie_6.set('fieldAliases', {'name': 'name', 'name_ar': 'name_ar', 'name_ber': 'name_ber', 'density': 'density', 'city_code': 'city_code', });
 lyr_Vitesseduventms_1.set('fieldImages', {'fid': 'TextEdit', 'index': 'Range', 'v': 'TextEdit', 'label': 'TextEdit', });
 lyr_Whisper200EJkWhm_2.set('fieldImages', {'fid': 'TextEdit', 'index': 'Range', 'Ej_min': 'TextEdit', 'Ej_max': 'TextEdit', 'label': 'TextEdit', });
 lyr_Whisper200EAkWhm_3.set('fieldImages', {'fid': 'TextEdit', 'index': 'Range', 'E_min': 'TextEdit', 'E_max': 'TextEdit', 'label': 'TextEdit', });
-lyr_RIGjkWhm_4.set('fieldImages', {'fid': 'TextEdit', 'index': 'Range', 'Ej_min': 'TextEdit', 'Ej_max': 'TextEdit', 'label': 'TextEdit', });
-lyr_Algrie_5.set('fieldImages', {'name': 'TextEdit', 'name_ar': 'TextEdit', 'name_ber': 'TextEdit', 'density': 'KeyValue', 'city_code': 'KeyValue', });
+lyr_RIGakWhm_4.set('fieldImages', {'fid': 'TextEdit', 'index': 'TextEdit', 'E_min': 'TextEdit', 'E_max': 'TextEdit', 'label': 'TextEdit', });
+lyr_RIGjkWhm_5.set('fieldImages', {'fid': 'TextEdit', 'index': 'Range', 'Ej_min': 'TextEdit', 'Ej_max': 'TextEdit', 'label': 'TextEdit', });
+lyr_Algrie_6.set('fieldImages', {'name': 'TextEdit', 'name_ar': 'TextEdit', 'name_ber': 'TextEdit', 'density': 'KeyValue', 'city_code': 'KeyValue', });
 lyr_Vitesseduventms_1.set('fieldLabels', {'fid': 'no label', 'index': 'no label', 'v': 'no label', 'label': 'no label', });
 lyr_Whisper200EJkWhm_2.set('fieldLabels', {'fid': 'no label', 'index': 'no label', 'Ej_min': 'no label', 'Ej_max': 'no label', 'label': 'no label', });
 lyr_Whisper200EAkWhm_3.set('fieldLabels', {'fid': 'no label', 'index': 'no label', 'E_min': 'no label', 'E_max': 'no label', 'label': 'no label', });
-lyr_RIGjkWhm_4.set('fieldLabels', {'fid': 'no label', 'index': 'no label', 'Ej_min': 'no label', 'Ej_max': 'no label', 'label': 'no label', });
-lyr_Algrie_5.set('fieldLabels', {'name': 'inline label - always visible', 'name_ar': 'no label', 'name_ber': 'no label', 'density': 'no label', 'city_code': 'no label', });
-lyr_Algrie_5.on('precompose', function(evt) {
+lyr_RIGakWhm_4.set('fieldLabels', {'fid': 'no label', 'index': 'no label', 'E_min': 'no label', 'E_max': 'no label', 'label': 'no label', });
+lyr_RIGjkWhm_5.set('fieldLabels', {'fid': 'no label', 'index': 'no label', 'Ej_min': 'no label', 'Ej_max': 'no label', 'label': 'no label', });
+lyr_Algrie_6.set('fieldLabels', {'name': 'inline label - always visible', 'name_ar': 'no label', 'name_ber': 'no label', 'density': 'no label', 'city_code': 'no label', });
+lyr_Algrie_6.on('precompose', function(evt) {
     evt.context.globalCompositeOperation = 'normal';
 });
